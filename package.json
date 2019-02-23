@@ -1,7 +1,7 @@
 {
-  "name": "self-directed-fe-starter",
+  "name": "magic_8_fe",
   "version": "1.0.0",
-  "description": "Starter kit for Turing School's BEE M4 Self-Directed Project",
+  "description": "Magic 8 Ball front end",
   "main": "index.js",
   "proxy": "https://localhost:3000/",
   "scripts": {
@@ -11,21 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turingschool-projects/self-directed-fe-starter.git"
+    "url": "git+https://github.com/turingschool-projects/magic_8_fe.git"
   },
   "author": "Turing School of Software and Design",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/turingschool-projects/self-directed-fe-starter/issues"
+    "url": "https://github.com/turingschool-projects/magic_8_fe/issues"
   },
-  "homepage": "https://github.com/turingschool-projects/self-directed-fe-starter#readme",
+  "homepage": "https://github.com/turingschool-projects/magic_8_fe#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.7",
     "babel-preset-env": "^1.6.0",
     "chai": "^3.5.0",
-    "chromedriver": "^2.27.2",
+    "chromedriver": "^2.46.0",
     "css-loader": "^0.26.0",
     "jquery": "^3.1.1",
     "mocha": "^3.1.2",
