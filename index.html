@@ -8,19 +8,13 @@ img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
-
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  0% { transform: translate(1px, 2px) rotate(0deg); }
+  20% { transform: translate(-3px, 0px) rotate(5deg); }
+  40% { transform: translate(1px, -1px) rotate(-5deg); }
   60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(5deg); }
+  100% { transform: translate(1px, -2px) rotate(-5deg); }
 }
 </style>
 </head>
@@ -29,10 +23,18 @@ img:hover {
   <h1> Magic 8 Ball </h1>
   <p>Hover over the image:</p>
       <img src = "./assets/8-ball.png" alt="8 Ball" height="600" class="eight-ball-image">
-        <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a>
+
+      <h5>Ask for Advice</h5>
+          <span class="text-right"><input type="text" placeholder="Keyword" id="keyword">
+          <button id="get-advice"onclick= "getAdvice()">Get Advice</button>
+
+      <div id="div1">
+      </div>
+
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
   <script src="main.bundle.js"></script>
+  <script src="lib/index.js"></script>
 </body>
 </html>
