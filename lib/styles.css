@@ -1,8 +1,4 @@
 .eight-ball-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
   animation: shake 1s;
   animation-iteration-count: infinite;
 
@@ -29,10 +25,4 @@
   transform: translate(-50%, -50%);
   max-width:200px;
   font-size: 20px;
-}
-
-.square {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
