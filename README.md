@@ -10,6 +10,7 @@ See it deployed here: https://mnhollandplum.github.io/magic_8_ball/ <br>
 
   ```shell
   git clone git@github.com:mnhollandplum/magic_8_ball.git
+  npm start
   ```
   Visit: http://localhost:8080/ to run the application
 
