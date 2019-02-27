@@ -17,7 +17,7 @@ See it deployed here: https://mnhollandplum.github.io/magic_8_ball/ <br>
   ## API
 
   This front end app is consuming the https://api.adviceslip.com/ API search and random endpoints.
-
+  When you submit your own advice it is sent to https://pacific-hamlet-18372.herokuapp.com/.
 
 ## Known Issues
 
