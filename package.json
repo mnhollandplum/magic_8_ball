@@ -30,6 +30,7 @@
     "jquery": "^3.1.1",
     "mocha": "^3.5.3",
     "mocha-loader": "^1.0.0",
+    "nock": "^10.0.6",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^4.1.1",
@@ -38,5 +39,10 @@
     "webdriverjs": "^1.7.5",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "sinon": "^7.2.4",
+    "twilio": "^3.28.1"
   }
 }

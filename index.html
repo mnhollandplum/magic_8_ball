@@ -9,7 +9,7 @@
   <h1> Magic 8 Ball </h1>
 
   <h5>Ask for Advice</h5>
-      <span class="text-right"><input type="text" placeholder="Keyword" id="keyword">
+      <span class="request-advice"><input type="text" placeholder="Keyword" id="keyword">
       <button id="get-advice">Get Advice</button>
       <button id="random-advice">Random</button>
         <button id="reset-btn">Reset</button>
@@ -20,6 +20,11 @@
       </div>
     </div>
   </div>
+
+  <h5>Submit Your Own Advice</h5>
+  <input type="text" placeholder="Your advice here" id="submit-advice">
+  <button id="add-advice" onclick= "addAdvice()">Submit</button>
+
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
