@@ -6,13 +6,24 @@
 </head>
 <link href="./lib/styles.css" rel="stylesheet">
 <body>
-  <h1> Magic 8 Ball </h1>
 
-  <h5>Ask for Advice</h5>
-      <span class="request-advice"><input type="text" placeholder="Keyword" id="keyword">
-      <button id="get-advice">Get Advice</button>
-      <button id="random-advice">Random</button>
-        <button id="reset-btn">Reset</button>
+
+
+<div class="user-input">
+    <div class="knockout">Magic 8 Ball</div>
+  <div class="request-advice">
+    <h2>Ask for Advice</h2>
+        <input type="text" placeholder="Keyword" id="keyword">
+        <button id="get-advice">Get Advice</button>
+        <button id="random-advice">Random</button></br>
+          <button id="reset-btn">Reset</button> </div></br>
+
+      <div class="submit-advice">
+          <h2>Submit Your Own Advice</h2>
+          <input type="text" placeholder="Your advice here" id="submit-advice">
+          <button id="add-advice" onclick= "addAdvice()">Submit</button>
+        </div>
+    </div>
 
   <div class="image-container">
       <img src = "./assets/8-ball.png" alt="8 Ball" height="600" id= "image" >
@@ -21,9 +32,11 @@
     </div>
   </div>
 
-  <h5>Submit Your Own Advice</h5>
-  <input type="text" placeholder="Your advice here" id="submit-advice">
-  <button id="add-advice" onclick= "addAdvice()">Submit</button>
+  <div class="information"> To contribute to this project click <a href="https://github.com/mnhollandplum/magic_8_ball">here</a>.</br>
+    To learn more about the API being used, click <a href="https://api.adviceslip.com/">here</a>.</br>
+  </div>
+
+
 
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
