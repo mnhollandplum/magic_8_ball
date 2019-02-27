@@ -1,7 +1,7 @@
 # Magic
 
 ## Introduction
-
+Watch a short video here: https://youtu.be/_ceUEZ5uOV0
 See it deployed here: https://mnhollandplum.github.io/magic_8_ball/ <br>
 
 ## How to Use
