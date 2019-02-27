@@ -1,3 +1,60 @@
+.knockout {
+  background: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: arial, helvetica;
+  width: 500px;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+.button {
+  border-radius: 12px;
+}
+
+body{
+  background: #444;
+}
+
+
+.user-input {
+    position: relative;
+    float: left;
+}
+.submit-advice {
+
+  padding-left: 60px;
+}
+.request-advice {
+  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-left: 60px;
+
+}
+
+h2 {
+  color: white;
+  font-size: 50px
+  font-family: arial, helvetica;
+}
+
+#keyword {
+  border-radius: 25px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#submit-advice {
+  border-radius: 25px;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 .eight-ball-image {
   animation: shake 1s;
   animation-iteration-count: infinite;
@@ -16,13 +73,24 @@
   position: relative;
   text-align: center;
   color: white;
+  max-width: 600px;
+  float: right;
+  padding-right: 60px;
 }
 
 .advice-text {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   max-width:200px;
   font-size: 20px;
+}
+
+.information {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 20px;
+  float: center;
 }
